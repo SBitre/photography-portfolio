@@ -9,31 +9,50 @@ A minimal, dark-themed photography portfolio built with pure HTML, CSS, and Java
 ## ✨ Features
 
 - **Masonry grid layout** — Pinterest-style photo arrangement using CSS columns
-- **Category filtering** — Dropdown to filter by Landscapes, Portraits, and Street photography
-- **Lightbox viewer** — Click any photo to view full-screen
+- **Category filtering** — Dropdown to filter by Landscapes, Panoramas, Portraits, and Street photography
+- **Lightbox viewer** — Click any photo to view full-screen (press Escape to close)
 - **Smooth animations** — Staggered fade-in on load and filter transitions
 - **Frosted glass header** — Fixed navigation with backdrop blur effect
-- **Fully responsive** — Adapts to desktop (3 columns), tablet (2 columns), and mobile (1 column)
-- **Lazy loading** — Images load only when scrolled into view for faster performance
+- **Fully responsive** — Desktop (3 columns), tablet (2 columns), and mobile (1 column)
+- **Lazy loading** — Images load only when scrolled into view
 
 ## 🛠️ Tech Stack
 
 - HTML5
 - CSS3 (Variables, Columns, Animations, Media Queries)
-- Vanilla JavaScript (No libraries)
+- Vanilla JavaScript
 - Google Fonts (Playfair Display + DM Sans)
 
 ## 📁 Project Structure
 
 ```
 photography-portfolio/
-├── index.html          # Entire website (single file)
-├── images/             # All photographs
-│   ├── Image1.jpeg
-│   ├── Image2.jpeg
-│   └── ...
-└── README.md
+├── index.html
+├── README.md
+└── Images/
+    ├── Landscape Photography/
+    │   ├── landscape1.jpeg
+    │   └── ... (10 photos)
+    ├── Panorama/
+    │   ├── pano1.jpeg
+    │   └── ... (8 photos)
+    ├── Potrait Photography/
+    │   ├── potrait1.jpeg
+    │   └── ... (15 photos)
+    └── Street Photography/
+        ├── street1.jpeg
+        └── ... (32 photos)
 ```
+
+## 📊 Collection
+
+| Category | Count |
+|----------|-------|
+| Landscapes | 10 |
+| Panoramas | 8 |
+| Portraits | 15 |
+| Street | 32 |
+| **Total** | **65** |
 
 ## 🚀 Run Locally
 
@@ -49,7 +68,6 @@ open index.html
 
 **Sumukh Bitre**
 - GitHub: [@SBitre](https://github.com/SBitre)
-- LinkedIn: [Connect with me](https://linkedin.com/in/)
 
 ---
 
